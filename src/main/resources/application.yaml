@@ -1,1 +1,10 @@
+spring:
+  application:
+    name: spring-batch-monitor
 
+server:
+  servlet:
+    context-path: /api
+
+springdoc:
+  show-actuator: true
